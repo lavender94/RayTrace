@@ -1,7 +1,7 @@
 # RayTrace
 This is a ray tracing project written by C++ and without the use of OpenGL
 
-# folder description
+# Folder description
 - please go to src/ to find all the scource code. To run the project, use vs2010 to bulid files under project/
 
 # Tips for review
