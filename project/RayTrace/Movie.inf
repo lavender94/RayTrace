@@ -1,0 +1,21 @@
+#Movie
+movie	96	24
+
+#movements
+1	rotate	50 65 30	0 0 1	6.28	0 96
+2	rotate	50 65 30	-1 0 1	6.28	0 96
+3	rotate	50 65 30	1 0 1	6.28	0 96
+4-7	rotate	50 65 30	0 0 1	6.28	0 96
+4-7	rotateSelf	6.28	48 96
+4-7	moveRadius	50 65 30	20	48 96
+back	0	48 96
+
+camera	u	moveRadius	50 65 30	-5	0 48
+camera	u	rotate	50 65 30	0 0 1	3.14	0 48
+camera	v	rotate	50 65 30	0 0 1	3.14	0 48
+camera	f	move	50 65 30	0 1
+camera	u	moveRadius	50 65 30	5	24 48
+camera	u	rotate	50 65 30	0 0 1	3.14	24 48
+camera	v	rotate	50 65 30	0 0 1	3.14	24 48
+camera	u	move	50 65 100	48 53
+camera	v	rotate	50 65 30	0 0 1	3.14	48 96
